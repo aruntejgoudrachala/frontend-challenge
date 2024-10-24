@@ -12,12 +12,10 @@ function ContactForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here you could add form validation or send data to a backend
-
-        // Show the success message
+        
         setSubmitted(true);
 
-        // Clear the form
+        
         setFormData({ name: '', email: '', message: '' });
     };
 
